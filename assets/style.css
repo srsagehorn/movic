@@ -1,0 +1,74 @@
+body {
+  background-color: #fffaf0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer {
+  background-color: #26a69a;
+  position: relative;
+  left: 0;
+  bottom: 0;
+  padding: 1px;
+  width: 100%;
+  color: #fffaf0;
+  text-align: center;
+}
+
+a {
+  color: #fffaf0;
+  text-decoration: underline;
+}
+
+#appName {
+  color: #fffaf0;
+  text-align: center;
+}
+#index-banner {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(img//background-1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.index-banner-two {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(img//background-2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 320px;
+  text-align: center;
+  color: #fffaf0;
+}
+
+.results {
+  margin-top: 20px;
+  border-bottom: 3px solid #26a69a;
+}
+
+.soundM {
+  font-family: "Dancing Script", cursive;
+  color: #26a69a;
+  text-align: center;
+}
+
+:-ms-input-placeholder {
+  color: #fffaf0;
+}
+.searcharea {
+  color: #fffaf0;
+}
+
+.material-icons {
+  color: #26a69a;
+}
+
+.btn-floating {
+  color: #26a69a;
+  display: inline;
+}
+
+.facts {
+  position: relative;
+  left: 80px !important;
+}

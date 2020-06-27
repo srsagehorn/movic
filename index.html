@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>MovIc- Sound your movie!</title>
+
+    <!-- CSS  -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link href="assets/style.css" type="text/css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <!-- this div should stay in all pages and MovIc should be clickabele to go back home page -->
+      <div id="index-banner">
+        <div class="section no-pad-bot">
+          <div class="container">
+            <br /><br />
+            <h1 class="header" id="appName">
+              Mo<span style="color: #26a69a;">V</span>ic
+            </h1>
+            <h2 class="soundM">Sound your movie!</h2>
+            <div class="row center">
+              <form class="col s12">
+                <div class="center">
+                  <input
+                    type="text"
+                    class="searcharea"
+                    placeholder="Search.."
+                  />
+                  <button class="btn-floating">
+                    <i class="material-icons">search</i>
+                  </button>
+                </div>
+              </form>
+            </div>
+            <br /><br />
+          </div>
+        </div>
+      </div>
+    </header>
+    <h3 class="mainTitle center"></h3>
+    <div class="row results">
+      <div class="col l6 m12 facts">
+        <div id="movie-result"></div>
+        <div id="genre"></div>
+        <div id="year"></div>
+        <div id="actors"></div>
+        <div id="rating"></div>
+        <div id="length"></div>
+      </div>
+      <div class="col l6 m12 center">
+        <div id="movie-pic"></div>
+      </div>
+    </div>
+    <div class="row results">
+      <div class="col l6 m12">
+        <div class="center" id="vid"></div>
+      </div>
+      <div class="col l6 m12">
+        <h5 class="title center"></h5>
+        <ul id="songs"></ul>
+      </div>
+    </div>
+
+    <main class="replacePage">
+      <div class="container">
+        <div class="section">
+          <!--   Icon Section   -->
+          <div class="row">
+            <div class="col s12 m6">
+              <div class="icon-block">
+                <h2 class="center text">
+                  <i class="material-icons">movie_filter</i>
+                </h2>
+                <h5 class="center">Movie</h5>
+
+                <p class="light">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Nullam scelerisque id nunc nec volutpat. Etiam pellentesque
+                  tristique arcu, non consequat magna fermentum ac. Cras ut
+                  ultricies eros. Maecenas eros justo, ullamcorper a sapien id,
+                  viverra ultrices eros.
+                </p>
+              </div>
+            </div>
+
+            <div class="col s12 m6">
+              <div class="icon-block">
+                <h2 class="center text">
+                  <i class="material-icons">music_note</i>
+                </h2>
+                <h5 class="center">Music</h5>
+
+                <p class="light">
+                  By utilizing elements and principles of Material Design, we
+                  were able to create a framework that incorporates components
+                  and animations that provide more feedback to users.
+                  Additionally, a single underlying responsive system across all
+                  platforms allow for a more unified user experience.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="index-banner-two">
+        <div class="row">
+          <div class="col-s6-imageTwo" id="imageTwo">
+            <img />
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="section">
+          <div class="row">
+            <div class="col s12 center">
+              <h4>Project description</h4>
+              <p class="left-align light">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+                scelerisque id nunc nec volutpat. Etiam pellentesque tristique
+                arcu, non consequat magna fermentum ac. Cras ut ultricies eros.
+                Maecenas eros justo, ullamcorper a sapien id, viverra ultrices
+                eros. Morbi sem neque, posuere et pretium eget, bibendum
+                sollicitudin lacus. Aliquam eleifend sollicitudin diam, eu
+                mattis nisl maximus sed. Nulla imperdiet semper molestie. Morbi
+                massa odio, condimentum sed ipsum ac, gravida ultrices erat.
+                Nullam eget dignissim mauris, non tristique erat. Vestibulum
+                ante ipsum primis in faucibus orci luctus et ultrices posuere
+                cubilia Curae;
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s12">
+            <h5 class="text">Project Team</h5>
+            <p class="text text-lighten-4">
+              Best team ever! write some paragrapph here .
+            </p>
+          </div>
+          <div class="col l6 s12">
+            <h5 class="text">Our contacts:</h5>
+            <ul>
+              <li>
+                <a class="text" href="https://github.com/MichaelZ002"
+                  >Michael</a
+                >
+              </li>
+              <li>
+                <a class="text" href="https://github.com/srsagehorn">Shannon</a>
+              </li>
+              <li>
+                <a class="text" href="https://github.com/nigarabdullayeva"
+                  >Nigar</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!--  Scripts-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
